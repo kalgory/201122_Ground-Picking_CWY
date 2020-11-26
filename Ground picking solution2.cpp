@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 int dp[100001][4];
-int d(vector<vector<int> > land, int n, int c) {
+int d(vector<vector<int> > &land, int n, int c) {
     int temp = 0;
     if (c < 0 && c>3)
         return 0;
